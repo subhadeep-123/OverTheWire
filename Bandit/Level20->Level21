@@ -1,0 +1,10 @@
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+#password = GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+#Terminal 1
+/suconnect 1234
+
+#Terminal 2
+cat /etc/bandit_pass/bandit20 | nc -l localhost -p 1234
+
+#password = gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

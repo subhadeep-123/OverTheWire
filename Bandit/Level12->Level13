@@ -1,2 +1,36 @@
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 #password = 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+mkdir /tmp/matrix
+
+cp data.txt /tmp/matrix
+
+cd /tmp/matrix
+
+xxd -r data.txt > data
+
+file data
+mv file newfile.gz
+gzip -d newfile.gz
+
+file newfile
+mv newfile file.bz
+bzip2 -d file.bz
+
+file file
+mv file newfile.gz
+gzip -d newfile.gz
+
+file newfile
+mv newfile file.tar
+tar -xvf file.tar
+
+file data5.bin
+mv data5.bin data.tar
+tar xf data.tar
+mv data6.bin data.tar
+tar xf data.tar
+mv data8.bin data.gz
+gzip -d data.gz
+cat data
+#password = 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL

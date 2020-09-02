@@ -1,0 +1,5 @@
+ssh bandit15@bandit.labs.overthewire.org -p 2220
+#password = BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+ncat --ssl localhost 30001
+#password = cluFn7wTiGryunymYOu4RcffSxQluehd

@@ -1,0 +1,8 @@
+ssh -i sshkey.private bandit14@localhost
+
+cat /etc/bandit_pass/bandit14
+
+nc localhost 30001
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+#password = BfMYroe26WYalil77FoDi9qh59eK5xNr

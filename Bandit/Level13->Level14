@@ -1,0 +1,7 @@
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+#password = 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+ssh -i sshkey.private bandit14@localhost
+
+cat /etc/bandit_pass/bandit14
+#password = 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e

@@ -1,0 +1,4 @@
+ssh -i key bandit17@bandit.labs.overthewire.org -p 2220 
+
+diff passwords.new passwords.old
+#passowrd = kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
