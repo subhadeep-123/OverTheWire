@@ -1,3 +1,11 @@
 ssh bandit20@bandit.labs.overthewire.org -p 2220
 
 #password = gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+cd /etc/cron.d/
+
+cat crontab_bandit22
+
+
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+#password = Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI

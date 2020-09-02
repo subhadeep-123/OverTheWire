@@ -1,0 +1,17 @@
+ssh bandit25@bandit.labs.overthewire.org -p 2220
+#password = uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+ssh -t -i bandit26.sshkey bandit26@localhost /bin/bash
+
+#adjust the terminal to 94 * 5
+# run ssh again
+
+v
+
+:e /etc/bandit_pass/bandit26
+#password = 5uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+#adjust the screen one more time
+
+v
+
+:shell

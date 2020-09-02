@@ -1,0 +1,16 @@
+ssh bandit22@bandit.labs.overthewire.org -p 2220
+#password = Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+cd /etc/cron.d/
+
+cat cronjob_bandit23
+
+cat /usr/bin/cronjob_bandit23.sh
+
+myname="bandit23"
+echo $myname
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+echo $mytarget
+
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+#password = jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n

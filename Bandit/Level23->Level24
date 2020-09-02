@@ -1,0 +1,24 @@
+ssh bandit23@bandit.labs.overthewire.org -p 2220
+#password = jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+cd /etc/cron.d/
+
+cat cronjob_bandit24
+
+cat /usr/bin/cronjob_bandit24.sh
+
+cd /tmp/folder
+
+nano tesh.sh
+	#!/bin/bash                                                                     
+        cat /etc/bandit_pass/bandit24 > /tmp/folder/password   
+chmod +x test.sh
+
+touch password
+chmod +x
+
+cat tesh.sh
+cat password
+password = UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ                                                              
+                                                  
+

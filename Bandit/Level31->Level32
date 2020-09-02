@@ -1,0 +1,25 @@
+ssh bandit31@bandit.labs.overthewire.org -p 2220
+#password = 47e603bb428404d265f59c42920d81e5
+
+mkdir /tmp/matrix31
+
+cd /tmp/matrix31
+
+git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+
+cd repo
+
+cat README.md
+
+echo "May I come in?" > key.txt
+
+#to verify
+cat key.txt 
+
+git add key.txt
+
+git commit -m "Added a Key"
+
+git push
+#password = 56a9bf19c63d650ce78e6ec0354ee45e
+

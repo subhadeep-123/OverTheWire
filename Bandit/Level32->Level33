@@ -1,0 +1,18 @@
+ssh bandit32@bandit.labs.overthewire.org -p 2220
+#password = 56a9bf19c63d650ce78e6ec0354ee45e
+
+$EUID
+$0
+
+#To set bash as default shell
+export SHELL = /bin/bash
+
+$SHELL
+
+cat /etc/bandit_pass/bandit33
+#password = c9c3199ddf4121b10cf581a98d51caee
+############################################
+
+		COMPLETED
+
+#############################################

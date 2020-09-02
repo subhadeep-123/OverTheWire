@@ -1,0 +1,22 @@
+ssh bandit27@bandit.labs.overthewire.org -p 2220
+#password = 0ef186ac70e04ea33b4c1853d2526fa2
+
+mkdir /tmp/matrix28
+
+cd /tmp/matrix28
+
+git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+
+cd repo
+
+cat R*
+
+git log
+
+#Find the commint that says add missing data
+#copy the commit hash
+
+git checkout c086d11a00c0648d095d04c089786efef5e01264
+
+cat R*
+# password = bbc96594b4e001778eee9975372716b2

@@ -1,0 +1,12 @@
+ssh bandit27@bandit.labs.overthewire.org -p 2220
+#password = 3ba3118a22e93127a4ed485be72ef5ea
+
+git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+	#password - 3ba3118a22e93127a4ed485be72ef5ea
+
+ls
+
+cd repo
+
+cat README
+#password = 0ef186ac70e04ea33b4c1853d2526fa2
