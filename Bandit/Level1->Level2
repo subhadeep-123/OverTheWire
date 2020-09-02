@@ -1,0 +1,15 @@
+#1
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+#password = boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+#2
+ls
+
+#3
+cat < - 
+  #or 
+cat ./-
+
+#4
+#Copy The Password For next round
+#password = CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9

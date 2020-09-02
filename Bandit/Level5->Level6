@@ -1,0 +1,11 @@
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+#password = koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+cd inhere
+
+ls -alhR
+
+find . -type f -size 1033c ! -executable
+#password = DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+

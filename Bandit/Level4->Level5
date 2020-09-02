@@ -1,0 +1,9 @@
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+#password = pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+ls
+
+
+find . -type f | xargs file
+cat < -file07
+#password  = koReBOKuIDDepwhWk7jZC0RTdopnAYKh
